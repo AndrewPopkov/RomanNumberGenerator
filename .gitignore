@@ -1,3 +1,8 @@
-
 romansNumberGenerator/bin/
 romansNumberGenerator/obj/
+Test/bin/
+Test/obj/
+*.ide-wal
+*.lock
+*.ide-shm
+.vs/romansNumberGenerator/v15/Server/sqlite3/storage.ide

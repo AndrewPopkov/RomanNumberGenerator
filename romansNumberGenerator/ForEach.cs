@@ -38,6 +38,12 @@ namespace System.Linq
             }
         }
 
+        public static void Repeat(this int count,  Action action)
+        {
+            while (count-- > 0)
+                action.Invoke();
+        }
+
     }
 }
 
